@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask, request, render_template
 from model.get_speech import get_speech,test_doc
 from utils import create_a_log,write_a_log,close_a_log
